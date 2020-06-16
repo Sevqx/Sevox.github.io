@@ -1,0 +1,59 @@
+body
+{
+  background-image: url("Images/Background-Dark.png");
+}
+
+.black-button {
+  padding: 10px 15px;
+  color: white;
+  background: black;
+}
+
+.white-button {
+  padding: 10px 15px;
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+
+.white-button:hover {
+  background: black;
+  color: white;
+}
+
+input {
+  padding: 10px 15px;
+  background: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.todo-item {
+  width: 400px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: 1px solid white;
+  color: white;
+}
+
+.todo-item--done {
+  text-decoration: line-through;
+  background: lime;
+}
+
+.delete-button:hover {
+  background: black;
+  color: white 
+}
+
+.black-button:hover {
+  background: gray
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
